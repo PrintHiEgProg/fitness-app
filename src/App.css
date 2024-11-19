@@ -5,6 +5,10 @@
 }
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
+body {
+  background-color: #ffffff;
+}
+
 @font-face {
 	font-family: 'Benzin-Bold';
 	src: url('./benzin-bold/fonts/benzin-bold.eot'); /* IE 9 Compatibility Mode */
