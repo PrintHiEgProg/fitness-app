@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+@font-face {
+	font-family: 'Benzin-Bold';
+	src: url('./benzin-bold/fonts/benzin-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./benzin-bold/fonts/benzin-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./benzin-bold/fonts/benzin-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./benzin-bold/fonts/benzin-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./benzin-bold/fonts/benzin-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./benzin-bold/fonts/benzin-bold.svg#benzin-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.App {
+  padding-bottom: 20vh;
+}
+
+.main-page {
+  margin-top: 10px;
+}
+
+.today-container {
+  width: 100vw;
+  height: 40vh;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  }
+
+.today-container-text {
+  letter-spacing: 4%;
+  font-family: 'Benzin-Bold';
+  font-weight: 400;
+  color: #F5F7FA;
+  font-size: 120%;
+top: 64px;
+left: 31px;
+gap: 0px;
+opacity: 0px;
+margin-left: 12%;
+padding-top: 20%;
+}
+
+.container-helper {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.today-container-description {
+font-size: 90%;
+font-weight: 400;
+line-height: 20.29px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F5F7FA;
+font-family: 'SF Pro Display', sans-serif;
+margin-left: 12%;
+}
+
+.today-container-time-today {
+  margin-top: 3%;
+  margin-left: 12%;
+  display: flex;
+}
+
+.today-container-time-icon {
+  background-image: url(./images/time.png);
+  background-size: cover;
+  width: 16px;
+}
+
+.today-container-time-text {
+  padding-left: 1%;
+  font-family: 'SF Pro Display', sans-serif;
+  color: #CCD1D9;
+  font-size: 90%;
+}
+
+.today-container-button {
+  display: flex;
+  margin-left: 12%;
+  margin-top: 2vh;
+  width: 40vw;
+  height: 10vh;
+  background: #01BB16;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.today-container-button-helper {
+  display: flex;
+  margin: auto;
+}
+
+.today-container-button-icon {
+  background-image: url('./images/right.png');
+  background-size: cover;
+  width: 20px;
+}
+
+.today-container-button-text {
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 90%;
+  padding-left: 4%;
+}
+
+.title-section {
+  font-family: 'Benzin-Bold';
+  font-weight: 400;
+  font-size: 100%;
+  margin-left: 12%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  color: #CCD1D9;
+}
+
+.container-text {
+  margin-left: 12%;
+  font-family: 'Benzin-Bold';
+  letter-spacing: 4%;
+  padding-top: 37%;
+  color: #ffffff;
+}
+
+.container-description {
+  font-size: 90%;
+  margin-left: 12%;
+  font-family: 'SF Pro Display', sans-serif;
+  color: #ffffff;
+}
+
+.today-container-time {
+  margin-top: 4%;
+  margin-left: 12%;
+  display: flex;
+}
+
+.Navbar {
+  z-index: 2000;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px -16px 32px 0px #AAB2BD29;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-item {
+  text-align: center;
+}
+
+.navbar-icon-helper {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.trainings-navbar-icon {
+  background-image: url('./images/profile.png');
+}
+
+.more-navbar-icon {
+  background-image: url('./images/more.png');
+}
+
+.navbar-item .navbar-description {
+  font-family: SF Pro Display;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 11.93px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #362F41;
+}
+
+.first {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/2d00/1459/18f120478aae53f214287587293b5e13?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N2NdknI-rRD4u0WIuHnSrUFaOjWidNFwo3f61WeWvFPvz5LBGZoSd1JOP5NR2Mdao6k3mKbC3OuvCYt2hFaMQ5KIwlK4eNS7Q6VpbHz9IEuSyTrETzRVjtaV~SLbLReWWKOCo88075yC7rlXZ9WBJuMjve-B6cVki-~ayMqx-I7QR3yC9VOPXHd2a9Uij4vbtX6FP5KmtRMRGEqESdDEAFMtqQvEwJwo0tuh0Vq0R83llUY-PZQ6wcya7l8g0z2n3c~FeKBydSsa-ltk9Fi0KUEGEb27nCrHIXANhrVGseoG~R4HqNck7Xm52s4o1ZQfoDzn1jEH6~-Jrsu2EN~uXQ__');
+  background-size: 170% 150%;
+  background-position: top ;
+  background-repeat: no-repeat;
+}
+
+.second {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/24d9/239b/86fbaae9fa0b2dd092c133fcf096058d?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=quCnGRrD02nRPVMsyDMkWq7SVTwzLCjNoTDiEIfqL6KTPcGD-yZZyPmKRjtrBDFfj7-MpmfGJZnZlnrU-ebbh1sHr9GYkHB2UVNYOHU2sWURPZdbsub-X1cCD4SFwcTNR4VCDaEJYBsKSh9Nyg5sN3L8dhTu8ZJFzt78bv4QDIEKW~Auma~AWcDvixGu1vIpyTozjTWfOeHvBi7oS5emdhHC39u5Ly09aqA9HxwnRNu0IYFtpK4Uk9XMppee0M2bfgzGZ0L5qC-94LVYNjGAHd7uq5j2qrDjQYZYgqLAxWhsAdU8cqOBrZ5IPJAxjiOATlddgViyxS5UCUdEM7aXaA__');
+  background-size: 185% 175%;
+  background-position: top right 100%;
+  background-repeat: no-repeat;
+}
+
+.third {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/8e2b/5daf/0dee1fee5f8b4666e9c159b4f23263fd?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EkHkYA~-HeWfhDQ7Luo3Y9c047hu2Hy7kMx9MnH-bJ4LlWnN88wMJbJMZyxiC6-Jtymsw6gLX6YgbnWC3yn0MYz-of-p2~LOEbOAz2QrryZaPgunWIrg3hNPlWEFAg9zG2pYkhnl3hJXHOG3MDuHS256zVKuMga-cbFo~9PdnRMD5zay56sN52JWf-mwDxqr2~YyOc2EaudQwL2xq64mWZ8pYSPwjF-Dm9b7-AWdpTuhZvlrP0ADPRsncDXjm7u-4OIyuHfOYi-VRsmawZ7mzPFe~uU35vrVFf5rPyeKNnLRNBkdeKgl-PsT8ZZuT11cezPdHW5OOH~opvIfegDRBg__');
+              background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fourth {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),#CAC8C9;
+              background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fifth {
+   background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/c5df/eb45/f9f0b61849e9a5557f0a828c92498852?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eo0XuaJ44bxFwrY-4kmfqdQJFOual6DWjbm9tfqt9HSDpgs4-NkexnybTWbLRZMPprpfmaRRBg36TBfg1LFWbjxarsOjHJ0vCs5DJ6MrxlWCeohYMOmf-L1KeT68oCqv6FivY~m2y8lxa9yuAGHDGermaTKRlJmIBhQZ9ObKh~HP9-UQvBuGeS6RyYcgLQL94W0J2UsROWQy6BCC1RIJ6WoHY5jNXNJxwO9XdejMvOlbsUQYMxLYrPFOj11ZRMZEr6GtZCP~EoGADOoN2WJTrH4ihLCYFr4LElRnJ57d4Knf78DynECgO~kZTcGaCaDsYq~H-bY187QiK7aDhPhj9g__');
+              background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sixth {
+   background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/a0fa/c81b/656a96fef8cee87e92506c9ccb206f2a?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FiWfn8u5reWGRcfAmbj65sG8x1LpFCsl7uE-qgTvgLNM-kB7oJbDXMRku0rS~csjaIoEEdt0qOOiGAoZ2Dh1MIhpSZ3K6VnKcDlMLMOpu17J3oIJ93HLo4duv14I-3NVTHDXz5T7oTCam4wkIzTG0VOfXXfPUKXvWYAoABLx9ypU-lNYFHIOs5j99ag0zYMgQyxdmUMLfqV8QgC548cxDgfVWsBJm~ODXNfVbZQIGyNBLVRLoK09-7Fj8SevhAMDZkVUOJrnjo5YVBgfwUgNdjPepwa6bZ1rNyMfGticv~hG8BNVZPe4Oeglu-U5foT2zjw7kkfop9zL1QJZXKn-rw__');
+              background-size: cover;
+              background-position: right 10%;
+  background-repeat: no-repeat;
+}
+
+.seventh {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/e4b3/7c81/92976d7fee18a196e0b6379c5193996a?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=isl2nD7uFxkeJ~IMpQ7vBHo3Q2UKCdnfthSvGzzk9WWee6VJk3s-VwIOMHZBTZ3rD5rSG0iSbwM21o4pST-z-UN9sX58zMmeFD2ZacK~UrEXiNm6snJnuHNM0rl3dG5vbR6tPzeImxlqmaUx80kA0T2v1XEyfnCmRVPb~RGRpHiKYxMMhK2lAuCucPZ4hg3FaTTUEc1QLbSAaCyHCwDEnillR3CxprfUZa92Nw30faV5xiX5YpH2QBnS87WUHA5ruvWF8KxPoDJTWFO1omU-Bxo8VgdMcr7ej~DX07iGqtLX3pO21SBsK9WnGSNXNbzBfI-0sBhBKTkkLRoIgsKzNw__');
+              background-size: 110% 150%;
+              background-position: center;
+  background-repeat: no-repeat;
+}
+
+.eighth {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/d58e/22ab/c46c425272e848ca74a0e8f0e6929aac?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S~AcJAScJn4WToqYc44Nmv0JMuLkw2j2YB7Ip6X2rKTI79kBfryAxsJPf0nBMQ8jwsavh2NbJhP47G0m5BxLOJLHZc8XqMtG0vkljNTR9wGeZ4uerniAC-9bf5l-fQX7fKIoes4QAmdUysLvDSEgFkzPB89pl2tV4WG21fHK6N8wUFBSZybl-4-Utk1aoBAdHB-qtUg5Vdva3qm9poDZ~vT7GeNLuZQuVXbNTdj41BjHQGHPK1WmSFE~OIRsJRl8B8m6PRr4IZR0nUGAqua64kIW2rhj5DVfd3X3X8cLjMTNsPoqSFYVNuzNdBU7euRpF9Y4qcXNPEIrdnNH~p1ORQ__');
+              background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ninth {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/0115/e4d9/ccaee34b95a53381d56f5e926b6d1225?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pKYBFUquKClqmHPNBm2QH4-RKzuY6IPn8lP8QC6TqRueJRhB5bVo4PcsU7o-Y9garIwZTJCBGUyD~ODQ9iq~vz0DdNMYGazTTUGtDvd0tJbxArV~m4ZBskbolE7EDFEQy~9RLdOzcbdJMzWysZ5W0SDfPV5GLrxjQacTCLbdLSsLnPwUsx0UgmwKF1fZ751UgZXiL1g9nTB7GW1CuRhmuuALudSqR5ONZH1u58JihKwAntdG7sPKHyUd6MPAmowP-JjmAKRSfJXGfZCDBIyxsCLb9Df9DGK2ML3c6OEPzgjcf3nS7WIc-4ozBzE3tXmyaxPBLV8JsBQBckfYnE7UCQ__');
+              background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tenth {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),
+              url('https://s3-alpha-sig.figma.com/img/2172/e1b5/b61b44005d313098adf872984d63d680?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P3n7lBO6e3BNMsuSuPpSwnE8k1Vwa6bfcWEhUcFQFuuKsX2xVoh4XO4xcSwxonLL-5Dz1N-OE6loyLLs1c1xTsAiQiDEJpkGVldO6Y5oroyuOp~HZF3xqXamPFFIHECdCcY6Rbs3Iw7b48euCyh1tkAp7wxJWLsWENI9X6p7fQYWOlkTlM9cMh3tNT2vfmBohr130icxUJr1gMSt76ZRsBp98HGRGeFowzPz3gOifYMoS8gLC8wolS~bo42gwumBBMV2HJk38Ftj~0YcxOKaor7MAQ93VCYR1qMGSg7mXQEDtWlIy8vvxl5Cb5x7j8~UoEGTa4ewcg0lA9EzqjlTuA__');
+              background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eleventh {
+  background: linear-gradient(179.6deg, rgba(16, 18, 20, 0) 0.1%, #101214 100%),#CAC8C9;
+              background-size: cover;
+  background-repeat: no-repeat;
+}
